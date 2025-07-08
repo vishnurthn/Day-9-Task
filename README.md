@@ -1,1 +1,1 @@
-
+I implemented a Django-based Todo application with user registration, login, and task management. Each user can view only their own tasks after logging in. The admin (superuser) has an extended view that shows a list of all registered users and all tasks in the system. The app uses Django’s login_required decorator for authentication and conditionally renders content based on user roles.
